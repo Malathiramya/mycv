@@ -1,0 +1,29 @@
+/* this is used when we dont define a  class selector 
+body {
+    background-color: lightblue;
+  }*/
+  /*h1{
+    color: red;
+  }*/
+  hr{
+      border-style: none;
+      border-style: dotted;
+      border-width: 10px;
+      border-top: gray;
+      width: 5%;
+  }
+  h1, h2, h3{
+    font-family: Arial, Helvetica, Arial, sans-serif;
+    
+    color: rgb(128, 0, 11);
+  }
+  /* the bellow one is a selector by name mypage to change the body color*/
+  .mypage{
+    background-color: lightgoldenrodyellow;
+  }
+  img{
+    border: 5px solid rgb(15, 14, 14);
+    border-radius: 4px; /* this is used in rounded images & circled img */
+    padding: 5px; /* distance between the images or text */ 
+    width: 210px; /* to set the size i.e height increase*/
+  }
